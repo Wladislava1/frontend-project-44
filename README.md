@@ -4,3 +4,4 @@
 <a href="https://codeclimate.com/github/Wladislava1/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/e24e04c0b546c4caf257/maintainability" /></a>
 
 Вы можете просмотреть запись терминала игры brain-even https://asciinema.org/a/FNs6X1xMMdJSouWi2j3PIlBvy
+Вы можете просмотреть запись терминала игры brain-calc https://asciinema.org/a/VsTGW5LQRqADRscrAo5bOQsNT
