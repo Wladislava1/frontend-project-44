@@ -3,7 +3,8 @@
 
 <a href="https://codeclimate.com/github/Wladislava1/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/e24e04c0b546c4caf257/maintainability" /></a>
 
-Вы можете просмотреть запись терминала игры brain-even https://asciinema.org/a/FNs6X1xMMdJSouWi2j3PIlBvy
-Вы можете просмотреть запись терминала игры brain-calc https://asciinema.org/a/VsTGW5LQRqADRscrAo5bOQsNT
-Вы можете просмотреть запись терминала игры brain-gsd https://asciinema.org/a/b0SLBu5SqckHCD0vYdomePfG2
-Вы можете просмотреть запись терминала игры brain-progression https://asciinema.org/a/v6mle506OYk4CkzIXxD85zsml
+Вы можете просмотреть запись терминала игры brain-even https://asciinema.org/a/kjSFX9sbvSaQX1CfwKIU0Tbnh
+Вы можете просмотреть запись терминала игры brain-calc https://asciinema.org/a/ZhqGdXt0IsOVwVWVR8KEEPAXH
+Вы можете просмотреть запись терминала игры brain-gsd https://asciinema.org/a/hS5wJsGeVt7QEFaLv6O86DVyq
+Вы можете просмотреть запись терминала игры brain-progression https://asciinema.org/a/nMmC4UD4JkQKJgRCCVxVJZCsg
+Вы можете просмотреть запись терминала игры brain-prime https://asciinema.org/a/k7IgkADFhEA2X0iqJf7H0UmFF
