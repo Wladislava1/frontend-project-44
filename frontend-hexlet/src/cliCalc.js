@@ -20,7 +20,7 @@ const calc = () => {
       count += 1;
       if (count === 3) {
         console.log(`Congratulations, ${name}!`);
-        count = 0;
+        break;
       }
     } else {
       count = 0;
