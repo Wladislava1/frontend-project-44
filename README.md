@@ -6,3 +6,4 @@
 Вы можете просмотреть запись терминала игры brain-even https://asciinema.org/a/FNs6X1xMMdJSouWi2j3PIlBvy
 Вы можете просмотреть запись терминала игры brain-calc https://asciinema.org/a/VsTGW5LQRqADRscrAo5bOQsNT
 Вы можете просмотреть запись терминала игры brain-gsd https://asciinema.org/a/b0SLBu5SqckHCD0vYdomePfG2
+Вы можете просмотреть запись терминала игры brain-progression https://asciinema.org/a/v6mle506OYk4CkzIXxD85zsml
