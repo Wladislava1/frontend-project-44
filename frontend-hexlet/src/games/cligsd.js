@@ -1,27 +1,23 @@
-
 import runGames from '../index.js';
 
-const gcd = (a, b) => {
-  while (b !== 0) {
-    const temp = b;
-    b = a % b;
-    a = temp;
+const generateCalcRoundData = () => {
+  const number = Math.floor(Math.random() * 100);
+  let primeNumber = '';
+  const question = String(number);
+  let count = 0;
+  for (let i = 1; i <= number; i++) {
+    if (number % i === 0) {
+      count += 1;
+    }
   }
-  return a;
+  primeNumber = count > 2 ? 'no' : 'yes';
+  const correctAnswer = primeNumber;
+  return { question, correctAnswer };
 };
 
-const generateRoundData = () => {
-  const number1 = Math.floor(Math.random() * 100);
-  const number2 = Math.floor(Math.random() * 100);
-  const question = `${number1} ${number2}`;
-  const maxTempNod = gcd(number1, number2);
-  const correctAnswer = String(eval(maxTempNod));
-  return {question, correctAnswer};
+const prime = () => {
+  const description = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+  runGames(description, generateCalcRoundData);
 };
 
-const gsd = () => {
-  const description = "Find the greatest common divisor of given numbers.";
-  runGames(description, generateRoundData);
-}
-
-export default gsd;
+export default prime;

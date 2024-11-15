@@ -1,4 +1,4 @@
-import runGames from "../index.js";
+import runGames from '../index.js';
 
 const generateCalcRoundData = () => {
   const symbols = ['+', '*', '-'];
@@ -6,8 +6,24 @@ const generateCalcRoundData = () => {
   const number2 = Math.floor(Math.random() * 100);
   const symbol = symbols[Math.floor(Math.random() * symbols.length)];
   const question = `${number1} ${symbol} ${number2}`;
-  const correctAnswer = String(eval(question));
-  return { question, correctAnswer };
+
+  let correctAnswer;
+
+  switch (symbol) {
+    case '+':
+      correctAnswer = number1 + number2;
+      break;
+    case '-':
+      correctAnswer = number1 - number2;
+      break;
+    case '*':
+      correctAnswer = number1 * number2;
+      break;
+    default:
+      correctAnswer = 0;
+  }
+
+  return { question, correctAnswer: String(correctAnswer) };
 };
 
 const calc = () => {
