@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import evenNumber from '../src/cliNumber.js';
+import evenNumber from '../src/games/cliNumber.js';
 
 evenNumber();

@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import gsd from '../src/cligsd.js';
+import gsd from '../src/games/cligsd.js';
 
 gsd();
