@@ -2,6 +2,12 @@
 [![Actions Status](https://github.com/Wladislava1/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Wladislava1/frontend-project-44/actions)
 
 <a href="https://codeclimate.com/github/Wladislava1/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/e24e04c0b546c4caf257/maintainability" /></a>
+Для запуска игры необходимо установить все зависимости npm install 
+Затем в терминале прописывать команду в соответствии с выбранной игрой:
+Игра четное/нечетное brain-even
+Игра калькулятор brain-calc
+Игра найти наибольший общий делитель brain-gsd 
+Игра арифметическая пррогрессия brain-progression
 
 Вы можете просмотреть запись терминала игры brain-even https://asciinema.org/a/kjSFX9sbvSaQX1CfwKIU0Tbnh
 Вы можете просмотреть запись терминала игры brain-calc https://asciinema.org/a/ZhqGdXt0IsOVwVWVR8KEEPAXH
