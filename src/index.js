@@ -1,9 +1,10 @@
-import sayHiUser from './games/cli.js';
 import readlineSync from 'readline-sync';
 import { ROUNDS_TO_WIN } from './config.js';
 
 const runGames = (description, generateRoundData) => {
-  const name = sayHiUser();
+  console.log('Welcome to the Brain Games!');
+  const name = readlineSync.question('May I have your name? ');
+  console.log(`Hello, ${name}!`);
   console.log(description);
 
   for (let count = 0; count < ROUNDS_TO_WIN; count++) {
